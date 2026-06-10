@@ -49,8 +49,7 @@
         
         ?>
         <br>
-        <button type="submit">Entrar</button>
+        <a href="home.html"><button>Entrar</button></a>
     </form>
-
 </body>
 </html>
