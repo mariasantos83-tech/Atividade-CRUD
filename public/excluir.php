@@ -18,4 +18,3 @@ if($conn->query($sql) === TRUE){
 }
 
 ?>
-query($sql); if ($resultado->num_rows > 0){ $_SESSION["usuario"] = $usuario; header("Location: public/home.php"); exit(); }else{ $erro = "Usuário ou senha inválidos!"; } } ?>
