@@ -8,10 +8,8 @@
 
 body {
     background-color: #a8c1f5; 
-    display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     padding: 20px;
 }
 .login-container {
@@ -30,7 +28,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 24px;
     text-align: center;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 .input-group {
     margin-bottom: 20px;
