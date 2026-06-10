@@ -1,6 +1,4 @@
-/* ==========================================================================
-   RESET DE ESTILOS & CONFIGURAÇÕES GERAIS
-   ========================================================================== */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,28 +7,23 @@
 }
 
 body {
-    background-color: #f3f4f6; /* Fundo cinza claro moderno */
+    background-color: #f3f4f6; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
 }
-
-/* ==========================================================================
-   CONTAINER DO FORMULÁRIO (CARD DE LOGIN)
-   ========================================================================== */
 .login-container {
     background-color: #ffffff;
     padding: 40px 30px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
     width: 100%;
     max-width: 400px;
     transition: transform 0.2s ease;
 }
 
-/* Título Principal */
 h1 {
     color: #1f2937;
     font-size: 24px;
@@ -39,10 +32,6 @@ h1 {
     text-align: center;
     letter-spacing: -0.5px;
 }
-
-/* ==========================================================================
-   CAMPOS DE ENTRADA (INPUTS E LABELS)
-   ========================================================================== */
 .input-group {
     margin-bottom: 20px;
 }
@@ -67,18 +56,16 @@ input[type="password"] {
     transition: all 0.2s ease-in-out;
 }
 
-/* Efeito de foco ao clicar no campo */
+
 input[type="text"]:focus,
 input[type="password"]:focus {
     background-color: #ffffff;
-    border-color: #2563eb; /* Azul moderno */
+    border-color: #2563eb;
     outline: none;
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); /* Brilho azul ao redor */
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1); 
 }
 
-/* ==========================================================================
-   BOTÃO DE ENVIO
-   ========================================================================== */
+
 button {
     width: 100%;
     padding: 14px;
@@ -92,8 +79,6 @@ button {
     transition: background-color 0.2s ease;
     margin-top: 10px;
 }
-
-/* Efeito hover (passar o mouse) e active (clicar) */
 button:hover {
     background-color: #1d4ed8;
 }
@@ -101,10 +86,6 @@ button:hover {
 button:active {
     transform: scale(0.98);
 }
-
-/* ==========================================================================
-   MENSAGEM DE ERRO
-   ========================================================================== */
 .error-message {
     background-color: #fee2e2;
     color: #dc2626;
@@ -115,10 +96,8 @@ button:active {
     margin-bottom: 20px;
     text-align: center;
     border: 1px solid #fca5a5;
-    animation: shake 0.2s ease-in-out; /* Pequena animação de erro */
+    animation: shake 0.2s ease-in-out;
 }
-
-/* Animação simples de tremor para o erro */
 @keyframes shake {
     0%, 100% { transform: translateX(0); }
     25% { transform: translateX(-4px); }
